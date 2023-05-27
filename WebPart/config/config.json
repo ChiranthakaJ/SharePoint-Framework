@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/showListDataDynamically/ShowListDataDynamicallyWebPart.manifest.json"
         }
       ]
+    },
+    "display-list-items-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/displayListItems/DisplayListItemsWebPart.js",
+          "manifest": "./src/webparts/displayListItems/DisplayListItemsWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "ShowListDataDynamicallyWebPartStrings": "lib/webparts/showListDataDynamically/loc/{locale}.js"
+    "ShowListDataDynamicallyWebPartStrings": "lib/webparts/showListDataDynamically/loc/{locale}.js",
+    "DisplayListItemsWebPartStrings": "lib/webparts/displayListItems/loc/{locale}.js"
   }
 }
