@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "display-share-point-list-data-client-side-solution",
+    "id": "686b1d71-05d2-4365-99d2-b1ee5f23882f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "DisplaySharePointListData description"
+      },
+      "longDescription": {
+        "default": "DisplaySharePointListData description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "display-share-point-list-data Feature",
+        "description": "The feature that activates elements of the display-share-point-list-data solution.",
+        "id": "aec2a134-bd3b-48af-ba47-dbcca7fa4fc5",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/display-share-point-list-data.sppkg"
+  }
+}
