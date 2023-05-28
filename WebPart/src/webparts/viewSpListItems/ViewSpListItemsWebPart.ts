@@ -67,7 +67,16 @@ export default class ViewSpListItemsWebPart extends BaseClientSideWebPart<IViewS
   }
   /*End of snippet*/
 
-  private _renderListAsync(): void {
+  /*private _renderListAsync(): void {
+    this._getListData()
+      .then((response) => {
+        this._renderList(response.value);
+      })
+      .catch(() => {});
+  }*/
+
+
+    private _renderListAsync(): void {
     this._getListData()
       .then((response) => {
         this._renderList(response.value);
@@ -83,6 +92,7 @@ export default class ViewSpListItemsWebPart extends BaseClientSideWebPart<IViewS
       });   
   }
   /*End of snippet*/
+
 
   /*The below method will render all SharePoint Lists in the array ISPList[] into individual 
   items as bullet points outputting with the list title. Basically this will be in a loop 
