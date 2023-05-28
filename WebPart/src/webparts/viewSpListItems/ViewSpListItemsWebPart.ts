@@ -89,7 +89,8 @@ export default class ViewSpListItemsWebPart extends BaseClientSideWebPart<IViewS
     return this.context.spHttpClient.get(`${this.context.pageContext.web.absoluteUrl}/_api/web/lists?$filter=Hidden eq false`, SPHttpClient.configurations.v1)
       .then((response: SPHttpClientResponse) => {
         return response.json();
-      });   
+      })
+      .catch(() => {}); 
   }
   /*End of snippet*/
 
