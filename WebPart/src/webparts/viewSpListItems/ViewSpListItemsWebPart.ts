@@ -102,7 +102,9 @@ export default class ViewSpListItemsWebPart extends BaseClientSideWebPart<IViewS
     items.forEach((item: ISPList) => {
       html += `
     <ol class="${styles.list}">
+    
       <li class="${styles.listItem}">
+      <span class="ms-font-l">${item.Id}</span>
         <span class="ms-font-l">${item.Title}</span>
       </li>
     </ol>`;
