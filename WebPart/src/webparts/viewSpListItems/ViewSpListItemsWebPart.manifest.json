@@ -22,7 +22,11 @@
     "description": { "default": "ViewSPListItems description" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "ViewSPListItems"
+      "description": "ViewSPListItems",
+      "test": "Multi-line text field",
+      "test1": true,
+      "test2": "2",
+      "test3": true
     }
   }]
 }
