@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.2",
+    "libraryName": "display-list-items",
+    "libraryId": "fc8457da-5f80-4616-bb0e-2ab48bddada0",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "DisplayListItems",
+    "solutionShortDescription": "DisplayListItems description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
