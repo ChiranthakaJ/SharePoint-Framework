@@ -67,16 +67,7 @@ export default class ViewSpListItemsWebPart extends BaseClientSideWebPart<IViewS
   }
   /*End of snippet*/
 
-  /*private _renderListAsync(): void {
-    this._getListData()
-      .then((response) => {
-        this._renderList(response.value);
-      })
-      .catch(() => {});
-  }*/
-
-
-    private _renderListAsync(): void {
+   private _renderListAsync(): void {
     this._getListData()
       .then((response) => {
         this._renderList(response.value);
