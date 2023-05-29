@@ -57,7 +57,7 @@ export default class ViewSpListItemsWebPart extends BaseClientSideWebPart<IViewS
       <div>
         <h3>Welcome to SharePoint Framework!</h3>
         <div>Web part description: <strong>${escape(this.properties.description)}</strong></div>
-        <div>Web part test: <strong>${escape(this.properties.test)}</strong></div>
+    
         <div>Loading from: <strong>${escape(this.context.pageContext.web.title)}</strong></div>
       </div>
       <div id="spListContainer" />
@@ -67,23 +67,27 @@ export default class ViewSpListItemsWebPart extends BaseClientSideWebPart<IViewS
   }
   /*End of snippet*/
 
-   private _renderListAsync(): void {
-    this._getListData()
-      .then((response) => {
-        this._renderList(response.value);
-      })
-      .catch(() => {});
-  }
-
-  /*This method() retrieve SharePoint Lists from the SharePoint Site inside the WebPart.*/
-  private _getListData(): Promise<ISPLists> {
+   /*This method() retrieve SharePoint Lists from the SharePoint Site inside the WebPart.*/
+   private _getListData(): Promise<ISPLists> {
     return this.context.spHttpClient.get(`${this.context.pageContext.web.absoluteUrl}/_api/web/lists?$filter=Hidden eq false`, SPHttpClient.configurations.v1)
       .then((response: SPHttpClientResponse) => {
         return response.json();
       })
+      // eslint-disable-next-line @typescript-eslint/no-empty-function
       .catch(() => {}); 
   }
   /*End of snippet*/
+
+   private _renderListAsync(): void {
+    this._getListData()
+      .then((response) => {
+        return this._renderList(response.value);
+      })
+      // eslint-disable-next-line @typescript-eslint/no-empty-function
+      .catch(() => {});
+  }
+
+ 
 
 
   /*The below method will render all SharePoint Lists in the array ISPList[] into individual 
