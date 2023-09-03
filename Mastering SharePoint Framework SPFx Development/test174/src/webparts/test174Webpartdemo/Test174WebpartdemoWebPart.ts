@@ -29,11 +29,11 @@ export default class Test174WebpartdemoWebPart extends BaseClientSideWebPart<ITe
         <div>Web part property value: <strong>${escape(this.properties.description)}</strong></div>
       </div>
       <div>
-        <h3>Welcome to SharePoint Framework!</h3>
+        <h3>Welcome to SharePoint Framework 1.17.4!</h3>
         <p>
         The SharePoint Framework (SPFx) is a extensibility model for Microsoft Viva, Microsoft Teams and SharePoint. It's the easiest way to extend Microsoft 365 with automatic Single Sign On, automatic hosting and industry standard tooling.
         </p>
-        <h4>Learn more about SPFx development:</h4>
+        <h4>Learn more about SPFx development 1.17.4:</h4>
           <ul class="${styles.links}">
             <li><a href="https://aka.ms/spfx" target="_blank">SharePoint Framework Overview</a></li>
             <li><a href="https://aka.ms/spfx-yeoman-graph" target="_blank">Use Microsoft Graph in your solution</a></li>
