@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "first-exercise-no-js-framework-client-side-solution",
+    "id": "71d609f5-19b9-486b-923d-f1f43a12d520",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "first-exercise-no-js-framework description"
+      },
+      "longDescription": {
+        "default": "first-exercise-no-js-framework description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "first-exercise-no-js-framework Feature",
+        "description": "The feature that activates elements of the first-exercise-no-js-framework solution.",
+        "id": "75b613d1-8b80-43d4-8587-f1d8609baf57",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/first-exercise-no-js-framework.sppkg"
+  }
+}
