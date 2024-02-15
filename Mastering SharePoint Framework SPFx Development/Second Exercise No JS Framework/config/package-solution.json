@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "second-exercise-no-js-framework-client-side-solution",
+    "id": "28712aa5-72f6-42ce-a63c-58cbc06702de",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "second-exercise-no-js-framework description"
+      },
+      "longDescription": {
+        "default": "second-exercise-no-js-framework description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "second-exercise-no-js-framework Feature",
+        "description": "The feature that activates elements of the second-exercise-no-js-framework solution.",
+        "id": "98ca5e7e-078a-420a-85f7-dbabf2b72140",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/second-exercise-no-js-framework.sppkg"
+  }
+}
