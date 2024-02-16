@@ -22,7 +22,7 @@ export default class SecondExerciseNoJsFrameworkWebPart extends BaseClientSideWe
   public render(): void {
     this.domElement.innerHTML = `
     <section class="${styles.secondExerciseNoJsFramework} ${!!this.context.sdks.microsoftTeams ? styles.teams : ''}">
-      <div class="${styles.welcome}">
+      <div class="${styles.welcome}">s
         <img alt="" src="${this._isDarkTheme ? require('./assets/welcome-dark.png') : require('./assets/welcome-light.png')}" class="${styles.welcomeImage}" />
         <h2>Well done, ${escape(this.context.pageContext.user.displayName)}!</h2>
         <div>${this._environmentMessage}</div>

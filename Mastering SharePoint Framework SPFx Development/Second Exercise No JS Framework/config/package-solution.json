@@ -2,7 +2,7 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
     "name": "second-exercise-no-js-framework-client-side-solution",
-    "id": "28712aa5-72f6-42ce-a63c-58cbc06702de",
+    "id": "c74e3a90-48bd-49bf-98a2-65d357147521",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
@@ -29,7 +29,7 @@
       {
         "title": "second-exercise-no-js-framework Feature",
         "description": "The feature that activates elements of the second-exercise-no-js-framework solution.",
-        "id": "98ca5e7e-078a-420a-85f7-dbabf2b72140",
+        "id": "8ccb1650-05ec-4cd3-82cb-3a1417c09ed8",
         "version": "1.0.0.0"
       }
     ]

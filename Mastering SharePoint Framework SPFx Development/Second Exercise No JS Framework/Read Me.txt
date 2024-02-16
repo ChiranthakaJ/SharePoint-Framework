@@ -1,1 +1,0 @@
-This exercise is not a part of 'Mastering SharePoint Framework SPFx Development' & is part of 'Microsoft 365 & Power Platform Community'. 
