@@ -54,6 +54,10 @@ export default class SecondExerciseNoJsFrameworkWebPart extends BaseClientSideWe
         <h2>Well done, ${escape(this.context.pageContext.user.displayName)}!</h2>
         <div>${this._environmentMessage}</div>
         <div>Web part property value: <strong>${escape(this.properties.description)}</strong></div>
+        <div><p>${escape(this.properties.complete_details)}</p></div>
+        <div><p>${this.properties.live}</p></div>
+        <div><p>${escape(this.properties.available_features)}</p></div>
+        <div><p>${this.properties.undergraduate}</p></div>
       </div>
       <div>
         <h3>Welcome to SharePoint Framework!</h3>
