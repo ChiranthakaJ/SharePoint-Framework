@@ -136,7 +136,7 @@ export default class SecondExerciseNoJsFrameworkWebPart extends BaseClientSideWe
       The getPropertyPaneConfiguration property is where you need to define the property pane. */
   /** When the properties are defined, you can access them in your web part 
       by using this.properties.<property-value>, as shown in the render() method: */
-      
+
   protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
     return {
       pages: [
@@ -148,10 +148,30 @@ export default class SecondExerciseNoJsFrameworkWebPart extends BaseClientSideWe
             {
               groupName: strings.BasicGroupName,
               groupFields: [
-                PropertyPaneTextField('description', {
-                  label: strings.DescriptionFieldLabel
-                })
-              ]
+              PropertyPaneTextField('description', {
+                label: 'Description'
+              }),
+              PropertyPaneTextField('complete_details', {
+                label: 'Multi-line Text Field',
+                multiline: true
+              }),
+              PropertyPaneCheckbox('live', {
+                text: 'Checkbox'
+              }),
+              PropertyPaneDropdown('available_features', {
+                label: 'Dropdown',
+                options: [
+                  { key: '1', text: 'One' },
+                  { key: '2', text: 'Two' },
+                  { key: '3', text: 'Three' },
+                  { key: '4', text: 'Four' }
+                ]}),
+              PropertyPaneToggle('graduate', {
+                label: 'Toggle',
+                onText: 'On',
+                offText: 'Off'
+              })
+            ]
             }
           ]
         }
