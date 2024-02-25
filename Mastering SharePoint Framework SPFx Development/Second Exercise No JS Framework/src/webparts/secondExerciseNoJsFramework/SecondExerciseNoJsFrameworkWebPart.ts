@@ -47,10 +47,22 @@ export default class SecondExerciseNoJsFrameworkWebPart extends BaseClientSideWe
   /** The render() method is used to render the web part inside that DOM element. 
    In the web part, the DOM element is set to a DIV. */
   public render(): void {
+    /** CSJ Comment */
+    /** This is the default snippet of a custom web part. This snippet will replaced with a custom
+     *  version.
+     */
+    /**
     this.domElement.innerHTML = `
     <section class="${styles.secondExerciseNoJsFramework} ${!!this.context.sdks.microsoftTeams ? styles.teams : ''}">
       <div class="${styles.welcome}">s
         <img alt="" src="${this._isDarkTheme ? require('./assets/welcome-dark.png') : require('./assets/welcome-light.png')}" class="${styles.welcomeImage}" />
+       
+       <!--CSJ Comment-->
+       <!--To access contextual information in the web part, we'll use the following object in our code:-->
+       <!-- 'this.context.pageContext' -->
+
+       <!--Notice how "$"{ }" is used to output the variable's value in the HTML block. An extra HTML div is used to display-->
+
         <h2>Well done, ${escape(this.context.pageContext.user.displayName)}!</h2>
         <div>${this._environmentMessage}</div>
         <div>Web part property value: <strong>${escape(this.properties.description)}</strong></div>
@@ -75,7 +87,26 @@ export default class SecondExerciseNoJsFrameworkWebPart extends BaseClientSideWe
             <li><a href="https://aka.ms/m365pnp" target="_blank">Microsoft 365 Developer Community</a></li>
           </ul>
       </div>
+    </section>`;*/
+
+    /** CSJ Comment */
+    /** The below is the new custom version of the snippet & it's a little bit less clattery.*/
+
+    this.domElement.innerHTML = `
+    <section class="${styles.SecondExerciseNoJsFrameworkWebPart} ${!!this.context.sdks.microsoftTeams ? styles.teams : ''}">
+      <div class="${styles.welcome}">
+        <img alt="" src="${this._isDarkTheme ? require('./assets/welcome-dark.png') : require('./assets/welcome-light.png')}" class="${styles.welcomeImage}" />
+        <h2>Well done, ${escape(this.context.pageContext.user.displayName)}!</h2>
+        <div>${this._environmentMessage}</div>
+        </div>
+        <div>
+        <h3>Welcome to SharePoint Framework!</h3>
+        <div>Web part description: <strong>${escape(this.properties.description)}</strong></div>
+        <div>Web part test: <strong>${escape(this.properties.test)}</strong></div>
+        <div>Loading from: <strong>${escape(this.context.pageContext.web.title)}</strong></div>
+      </div>
     </section>`;
+
   }
 
   protected onInit(): Promise<void> {
@@ -150,7 +181,7 @@ export default class SecondExerciseNoJsFrameworkWebPart extends BaseClientSideWe
           },
           groups: [
             {
-              groupName: strings.BasicGroupName,
+              /**groupName: strings.BasicGroupName,*/
               groupFields: [
               PropertyPaneTextField('description', {
                 label: 'Description'
