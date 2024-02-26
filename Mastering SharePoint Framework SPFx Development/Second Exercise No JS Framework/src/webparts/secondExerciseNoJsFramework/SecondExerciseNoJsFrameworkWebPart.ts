@@ -38,6 +38,17 @@ export interface ISecondExerciseNoJsFrameworkWebPartProps {
   undergraduate: boolean;
 }
 
+/** CSJ Commit */
+/** The ISPList interface holds the SharePoint list information that we're connecting to. */
+export interface ISPLists {
+  value: ISPList[];
+}
+
+export interface ISPList {
+  Title: string;
+  Id: string;
+}
+
 export default class SecondExerciseNoJsFrameworkWebPart extends BaseClientSideWebPart<ISecondExerciseNoJsFrameworkWebPartProps> {
 
   private _isDarkTheme: boolean = false;
