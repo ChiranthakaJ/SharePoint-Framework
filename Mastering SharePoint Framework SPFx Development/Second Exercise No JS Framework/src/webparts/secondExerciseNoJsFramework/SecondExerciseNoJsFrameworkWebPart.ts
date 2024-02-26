@@ -93,7 +93,7 @@ export default class SecondExerciseNoJsFrameworkWebPart extends BaseClientSideWe
     /** The below is the new custom version of the snippet & it's a little bit less clattery.*/
 
     this.domElement.innerHTML = `
-    <section class="${styles.SecondExerciseNoJsFrameworkWebPart} ${!!this.context.sdks.microsoftTeams ? styles.teams : ''}">
+    <section class="${styles.secondExerciseNoJsFramework} ${!!this.context.sdks.microsoftTeams ? styles.teams : ''}">
       <div class="${styles.welcome}">
         <img alt="" src="${this._isDarkTheme ? require('./assets/welcome-dark.png') : require('./assets/welcome-light.png')}" class="${styles.welcomeImage}" />
         <h2>Well done, ${escape(this.context.pageContext.user.displayName)}!</h2>
@@ -102,8 +102,12 @@ export default class SecondExerciseNoJsFrameworkWebPart extends BaseClientSideWe
         <div>
         <h3>Welcome to SharePoint Framework!</h3>
         <div>Web part description: <strong>${escape(this.properties.description)}</strong></div>
-        <div>Web part test: <strong>${escape(this.properties.test)}</strong></div>
         <div>Loading from: <strong>${escape(this.context.pageContext.web.title)}</strong></div>
+        <div><p>${escape(this.properties.complete_details)}</p></div>
+        <div><p>${this.properties.live}</p></div>
+        <div><p>${escape(this.properties.available_features)}</p></div>
+        <div><p>${this.properties.undergraduate}</p></div>
+
       </div>
     </section>`;
 
@@ -176,9 +180,9 @@ export default class SecondExerciseNoJsFrameworkWebPart extends BaseClientSideWe
     return {
       pages: [
         {
-          header: {
+          /**header: {
             description: strings.PropertyPaneDescription
-          },
+          },*/
           groups: [
             {
               /**groupName: strings.BasicGroupName,*/
