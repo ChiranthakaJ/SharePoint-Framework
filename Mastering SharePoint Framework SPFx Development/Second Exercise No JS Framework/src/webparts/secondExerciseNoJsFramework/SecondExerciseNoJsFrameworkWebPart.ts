@@ -24,6 +24,10 @@ import { escape } from '@microsoft/sp-lodash-subset';
 
 import styles from './SecondExerciseNoJsFrameworkWebPart.module.scss';
 import * as strings from 'SecondExerciseNoJsFrameworkWebPartStrings';
+import {
+  SPHttpClient,
+  SPHttpClientResponse
+} from '@microsoft/sp-http';
 
 /** CSJ Comment */
 /** The property type is defined as an interface before the class.*/
@@ -53,6 +57,15 @@ export default class SecondExerciseNoJsFrameworkWebPart extends BaseClientSideWe
 
   private _isDarkTheme: boolean = false;
   private _environmentMessage: string = '';
+
+  private _getListData(): Promise<ISPLists> {
+    return this.context.spHttpClient.get(`${this.context.pageContext.web.absoluteUrl}/_api/web/lists?$filter=Hidden eq false`, SPHttpClient.configurations.v1)
+      .then((response: SPHttpClientResponse) => {
+        return response.json();
+      })
+      .catch(() => {});
+  }
+
 
    /** CSJ Comment */
   /** The render() method is used to render the web part inside that DOM element. 
