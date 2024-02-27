@@ -58,12 +58,12 @@ export default class SecondExerciseNoJsFrameworkWebPart extends BaseClientSideWe
   private _isDarkTheme: boolean = false;
   private _environmentMessage: string = '';
 
-  private _getListData(): Promise<ISPLists> {
+  private _getListData(): Promise<ISPList[]> {
     return this.context.spHttpClient.get(`${this.context.pageContext.web.absoluteUrl}/_api/web/lists?$filter=Hidden eq false`, SPHttpClient.configurations.v1)
       .then((response: SPHttpClientResponse) => {
         return response.json();
       })
-      .catch(() => {});
+      .catch((err) => { console.log(err); });
   }
 
 
