@@ -8,12 +8,12 @@
       "@microsoft/teams-js": "2.12.0"
     },
     "version": "1.18.2",
-    "libraryName": "second-exercise-no-js-framework",
-    "libraryId": "c74e3a90-48bd-49bf-98a2-65d357147521",
-    "environment": "spo",ls4
+    "libraryName": "second-exercise-no-js",
+    "libraryId": "e5094b6e-1a73-4039-bdfb-68eb6e6fec06",
+    "environment": "spo",
     "packageManager": "npm",
-    "solutionName": "second-exercise-no-js-framework",
-    "solutionShortDescription": "second-exercise-no-js-framework description",
+    "solutionName": "Second Exercise No JS",
+    "solutionShortDescription": "Second Exercise No JS description",
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
     "componentType": "webpart"

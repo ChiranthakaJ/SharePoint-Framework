@@ -1,4 +1,4 @@
-declare interface ISecondExerciseNoJsFrameworkWebPartStrings {
+declare interface ISecondExerciseWebPartWebPartStrings {
   PropertyPaneDescription: string;
   BasicGroupName: string;
   DescriptionFieldLabel: string;
@@ -13,7 +13,7 @@ declare interface ISecondExerciseNoJsFrameworkWebPartStrings {
   UnknownEnvironment: string;
 }
 
-declare module 'SecondExerciseNoJsFrameworkWebPartStrings' {
-  const strings: ISecondExerciseNoJsFrameworkWebPartStrings;
+declare module 'SecondExerciseWebPartWebPartStrings' {
+  const strings: ISecondExerciseWebPartWebPartStrings;
   export = strings;
 }

@@ -1,4 +1,4 @@
-# second-exercise-no-js-framework
+# second-exercise-no-js
 
 ## Summary
 

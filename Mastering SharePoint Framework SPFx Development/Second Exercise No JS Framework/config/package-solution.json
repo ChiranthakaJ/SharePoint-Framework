@@ -1,8 +1,8 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "second-exercise-no-js-framework-client-side-solution",
-    "id": "c74e3a90-48bd-49bf-98a2-65d357147521",
+    "name": "Second WebPart No JS",
+    "id": "e5094b6e-1a73-4039-bdfb-68eb6e6fec06",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
@@ -16,10 +16,10 @@
     },
     "metadata": {
       "shortDescription": {
-        "default": "second-exercise-no-js-framework description"
+        "default": "Second Exercise No JS description"
       },
       "longDescription": {
-        "default": "second-exercise-no-js-framework description"
+        "default": "Second Exercise No JS description"
       },
       "screenshotPaths": [],
       "videoUrl": "",
@@ -27,14 +27,14 @@
     },
     "features": [
       {
-        "title": "second-exercise-no-js-framework Feature",
-        "description": "The feature that activates elements of the second-exercise-no-js-framework solution.",
-        "id": "8ccb1650-05ec-4cd3-82cb-3a1417c09ed8",
+        "title": "Second WebPart No JS",
+        "description": "The feature that activates elements of the second-exercise-no-js solution.",
+        "id": "b02fd25a-44b0-43b4-905a-44b61455ad0b",
         "version": "1.0.0.0"
       }
     ]
   },
   "paths": {
-    "zippedPackage": "solution/second-exercise-no-js-framework.sppkg"
+    "zippedPackage": "solution/Second Exercise No JS.sppkg"
   }
 }

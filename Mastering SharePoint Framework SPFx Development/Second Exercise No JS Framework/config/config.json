@@ -2,17 +2,17 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
   "version": "2.0",
   "bundles": {
-    "second-exercise-no-js-framework-web-part": {
+    "second-exercise-web-part-web-part": {
       "components": [
         {
-          "entrypoint": "./lib/webparts/secondExerciseNoJsFramework/SecondExerciseNoJsFrameworkWebPart.js",
-          "manifest": "./src/webparts/secondExerciseNoJsFramework/SecondExerciseNoJsFrameworkWebPart.manifest.json"
+          "entrypoint": "./lib/webparts/secondExerciseWebPart/SecondExerciseWebPartWebPart.js",
+          "manifest": "./src/webparts/secondExerciseWebPart/SecondExerciseWebPartWebPart.manifest.json"
         }
       ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "SecondExerciseNoJsFrameworkWebPartStrings": "lib/webparts/secondExerciseNoJsFramework/loc/{locale}.js"
+    "SecondExerciseWebPartWebPartStrings": "lib/webparts/secondExerciseWebPart/loc/{locale}.js"
   }
 }

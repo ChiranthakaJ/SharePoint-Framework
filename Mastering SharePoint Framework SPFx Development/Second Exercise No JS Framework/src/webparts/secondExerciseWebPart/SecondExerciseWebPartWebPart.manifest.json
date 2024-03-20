@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
-  "id": "c9d95a85-7135-450d-8761-79d2f2673c08",
-  "alias": "SecondExerciseNoJsFrameworkWebPart",
+  "id": "008f250b-7dbc-4555-b905-d8aff2510964",
+  "alias": "SecondExerciseWebPartWebPart",
   "componentType": "WebPart",
 
-   "version": "*",
+  "version": "*",
   "manifestVersion": 2,
 
-  
+
   "requiresCustomScript": false,
   "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
   "supportsThemeVariants": true,
@@ -15,15 +15,15 @@
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
     "group": { "default": "Advanced" },
-    "title": { "default": "Second Exercise No JS Framework" },
-    "description": { "default": "Second Exercise No JS Framework description" },
+    "title": { "default": "Second Exercise Web Part" },
+    "description": { "default": "Second Exercise Web Part description" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "Second Exercise No JS Framework",
-      "complete details": "Multi-line text field",
-      "live": true,
-      "available features": "2",
-      "undergraduate": true
+      "description": "HelloWorld",
+      "notes": "Multi-line text field",
+      "statusof": true,
+      "comments": "2",
+      "items": true
     }
   }]
 }
