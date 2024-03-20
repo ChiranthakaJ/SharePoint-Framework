@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "008f250b-7dbc-4555-b905-d8aff2510964",
+  "alias": "SecondExerciseWebPartWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Advanced" },
+    "title": { "default": "Second Exercise Web Part" },
+    "description": { "default": "Second Exercise Web Part description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "HelloWorld",
+      "notes": "Multi-line text field",
+      "statusof": true,
+      "comments": "2",
+      "items": true
+    }
+  }]
+}
