@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "96451b56-5fcb-4ede-9e37-90316f19a670",
+  "alias": "HelloWorldNewWebPart",
+  "componentType": "WebPart",
+
+
+  "version": "*",
+  "manifestVersion": 2,
+
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Advanced" },
+    "title": { "default": "Hello World New" },
+    "description": { "default": "Hello World New description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Hello World New",
+      "test": "Multi-line text field",
+      "test1": true,
+      "test2": "2",
+      "test3": true
+    }
+  }]
+}
