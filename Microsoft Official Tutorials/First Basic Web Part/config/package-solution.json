@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "first-solution-very-basic-web-part-client-side-solution",
+    "id": "396e4e3f-8979-499e-a1dd-288dd82f6896",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": " First Solution Very Basic WebPart description"
+      },
+      "longDescription": {
+        "default": " First Solution Very Basic WebPart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "first-solution-very-basic-web-part Feature",
+        "description": "The feature that activates elements of the first-solution-very-basic-web-part solution.",
+        "id": "d8258bc7-3acc-4d63-a2b1-0e2b582bff3a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/first-solution-very-basic-web-part.sppkg"
+  }
+}
