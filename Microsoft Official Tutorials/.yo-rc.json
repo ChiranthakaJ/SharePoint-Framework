@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.4",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "third-basic-web-part-solution",
+    "libraryId": "f9e6d6e3-c9ad-43e2-babb-66589e81f7ed",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Third Basic Web Part Solution",
+    "solutionShortDescription": "Third Basic Web Part Solution description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
