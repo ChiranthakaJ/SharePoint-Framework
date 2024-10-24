@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "third-basic-web-part-solution-client-side-solution",
+    "id": "32bb7b28-15d7-44d7-a745-f32198b971ea",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Third Basic Web Part Solution description"
+      },
+      "longDescription": {
+        "default": "Third Basic Web Part Solution description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "third-basic-web-part-solution Feature",
+        "description": "The feature that activates elements of the third-basic-web-part-solution solution.",
+        "id": "3a4fccb2-e2da-4784-9807-43420f33734c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/third-basic-web-part-solution.sppkg"
+  }
+}
