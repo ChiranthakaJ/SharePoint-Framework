@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "first-react-js-web-part-solution-client-side-solution",
+    "id": "aec0c89a-6212-4482-95bb-d27d53523a86",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "First-React-JS-Web-Part-Solution description"
+      },
+      "longDescription": {
+        "default": "First-React-JS-Web-Part-Solution description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "first-react-js-web-part-solution Feature",
+        "description": "The feature that activates elements of the first-react-js-web-part-solution solution.",
+        "id": "ce6c18d2-fdf7-4190-9686-aea392d0ee7e",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/first-react-js-web-part-solution.sppkg"
+  }
+}

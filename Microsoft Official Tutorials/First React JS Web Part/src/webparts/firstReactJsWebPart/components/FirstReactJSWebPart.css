@@ -1,0 +1,23 @@
+.parent-container {
+    width: 100%;
+    max-width: 100%; /* Prevents overflow */
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .tile-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Flexible grid */
+    gap: 10px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  #workbenchPageContent {
+    max-width: 60% !important; /* Set a custom max width */
+    margin: 0 auto; /* Center it */
+  }
+  
