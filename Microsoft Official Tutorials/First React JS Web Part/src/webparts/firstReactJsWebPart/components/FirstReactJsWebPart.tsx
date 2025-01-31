@@ -12,18 +12,18 @@ export default class FirstReactJsWebPart extends React.Component<IFirstReactJsWe
 
     // Sample tiles array with title, icon, and link properties
     const tiles = [
-      { title: "Projects", icon: "Projects.png", link: "https://www.microsoft.com" },
-      { title: "Collateral", icon: "Collateral.png", link: "https://learn.microsoft.com" },
-      { title: "Corporate", icon: "Corporate.png", link: "https://outlook.office.com" },
-      { title: "Governance", icon: "Governance.png", link: "https://teams.microsoft.com" },
-      { title: "Events", icon: "Events.png", link: "https://outlook.office.com/calendar" },
-      { title: "Visitor Economy", icon: "Visitor%20Economy.png", link: "https://onedrive.live.com" },
-      { title: "Communications", icon: "Communications.png", link: "https://yourcompany.sharepoint.com" },
-      { title: "Finance & HR", icon: "Finance%20and%20HR.png", link: "#" },
-      { title: "Image Library", icon: "Image%20Library.png", link: "#" },
-      { title: "Board", icon: "Board.png", link: "#" },
-      { title: "Staff Resources", icon: "Staff%20Resources.png", link: "#" },
-      { title: "Archive", icon: "Archive.png", link: "#" },
+      { title: "Projects", icon: "Projects.png", link: "https://centralhighlandsrc.sharepoint.com/sites/CHDCHub/PROJECTS/" },
+      { title: "Collateral", icon: "Collateral.png", link: "https://centralhighlandsrc.sharepoint.com/sites/CHDCHub/COLLATERAL/" },
+      { title: "Corporate", icon: "Corporate.png", link: "https://centralhighlandsrc.sharepoint.com/sites/CHDCHub/CORPORATE/" },
+      { title: "Governance", icon: "Governance.png", link: "https://centralhighlandsrc.sharepoint.com/sites/CHDCHub/GOVERNANCE%20%20HR/" },
+      { title: "Events", icon: "Events.png", link: "https://centralhighlandsrc.sharepoint.com/sites/CHDCHub/EVENTS/" },
+      { title: "Visitor Economy", icon: "Visitor%20Economy.png", link: "https://centralhighlandsrc.sharepoint.com/sites/CHDCHub/VISITOR%20ECONOMY/" },
+      { title: "Communications", icon: "Communications.png", link: "https://centralhighlandsrc.sharepoint.com/sites/CHDCHub/COMMUNICATIONS/" },
+      { title: "Finance & HR", icon: "Finance%20and%20HR.png", link: "https://centralhighlandsrc.sharepoint.com/sites/CHDCHub/FINANCE%20%20FUNDING/" },
+      { title: "Image Library", icon: "Image%20Library.png", link: "https://centralhighlandsrc.sharepoint.com/sites/CHDCHub/IMAGE%20LIBRARY/" },
+      { title: "Board", icon: "Board.png", link: "https://centralhighlandsrc.sharepoint.com/sites/CHDCHub/BOARD/" },
+      { title: "Staff Resources", icon: "Staff%20Resources.png", link: "https://centralhighlandsrc.sharepoint.com/sites/CHDCHub/RESOURCES/" },
+      { title: "Archive", icon: "Archive.png", link: "https://centralhighlandsrc.sharepoint.com/sites/CHDCHub/ARCHIVE/" },
     ];
 
     
