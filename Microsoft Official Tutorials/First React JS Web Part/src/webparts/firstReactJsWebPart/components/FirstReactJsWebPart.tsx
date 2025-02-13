@@ -7,7 +7,7 @@ export default class FirstReactJsWebPart extends React.Component<IFirstReactJsWe
   public render(): React.ReactElement<IFirstReactJsWebPartProps> {
 
     // Define the base URL for the images stored in the SharePoint Document Library
-    const siteUrl = "https://fourthar.sharepoint.com/sites/My-Developer-Communication-Site/Site%20Images/";
+    const siteUrl = "https://centralhighlandsrc.sharepoint.com/sites/CHDCHub/Site%20Images/";
 
 
     // Sample tiles array with title, icon, and link properties
